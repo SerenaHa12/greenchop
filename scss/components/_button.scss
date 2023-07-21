@@ -1,0 +1,51 @@
+.btn-primary-default {
+  color: $whiteColor;
+  text-align: center;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: $greenMain;
+  border-radius: 8px;
+  padding: 16px 14px;
+}
+
+.btn-primary-default:hover {
+  background-color: $orangeMain;
+}
+
+.btn-secondary-default {
+  background: transparent;
+  border: 1px solid $greenMain;
+  padding: 14px 26px;
+  border-radius: 8px;
+}
+
+.btn-secondary-default:hover {
+  background-color: $greenMain;
+  color: $whiteColor;
+}
+
+.btn-order-black {
+  width: 531px;
+  padding: 16px 14px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: $bgColor;
+  font-size: 2rem;
+  font-weight: 700;
+  color: $whiteColor;
+}
+
+.btn-order-orange {
+  width: 531px;
+  padding: 16px 14px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: $orangeMain;
+  font-size: 2rem;
+  font-weight: 700;
+  color: $whiteColor;
+}
