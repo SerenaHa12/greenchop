@@ -23,6 +23,7 @@ a {
 }
 
 img {
+  max-width: 100%;
   height: auto;
 }
 
@@ -98,11 +99,22 @@ ul, ol {
   .header .container .header-menu {
     display: none;
   }
+  .header .container .search-tablet {
+    display: flex;
+  }
   .header .container .header-icon {
     column-gap: 20px;
   }
+  .header .container .header-icon .search-icon {
+    display: none;
+  }
   .header .container .header-icon .menu-toggle {
     display: block;
+  }
+}
+@media screen and (max-width: 720px) {
+  .header .container .header-icon .cart-icon {
+    display: none;
   }
 }
 .btn-primary-default {

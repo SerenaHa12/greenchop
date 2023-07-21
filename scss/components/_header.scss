@@ -67,10 +67,28 @@
       .header-menu {
         display: none;
       }
+      .search-tablet{
+        display: flex;
+      }
       .header-icon {
         column-gap: 20px;
+        .search-icon{
+          display: none;
+        }
         .menu-toggle {
           display: block;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 720px){
+  .header{
+    .container{
+      .header-icon{
+        .cart-icon{
+          display: none;
         }
       }
     }
