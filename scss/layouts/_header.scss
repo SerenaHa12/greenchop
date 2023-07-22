@@ -1,101 +1,50 @@
 // Import Parts
 .header {
-  // background: $whiteColor;
-  background: orange;
   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
-  height: 130px;
-  .container {
+  z-index: 99;
+  position: sticky;
+  top: 0;
+  background-color: $whiteColor;
+  .header-inner {
     max-width: 1440px;
-    .header-logo{
-      height: fit-content;
-    }
-    .header-menu {
-      margin-top: 65px;
-      ul {
-        display: flex;
-        justify-content: flex-end;
-        column-gap: 5%;
-        li {
-          a {
-            font-size: 2rem;
-            font-weight: 600;
-            line-height: 2.6rem;
-            &.active {
-              color: $greenMain;
-              position: relative;
-              &::after {
-                content: "";
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                width: 0;
-                height: 3px;
-                background-color: $greenMain;
-              }
-            }
-            &:hover {
-              @extend .active;
-            }
-          }
-        }
-      }
-    }
-    .header-icon {
+    margin: 0 240px;
+    display: flex;
+    justify-content: space-between;
+    .header-nav {
       display: flex;
-      justify-content: space-around;
-      .cart-icon {
+      margin-top: 65px;
+      column-gap: 60px;
+      a {
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+        &:hover{
+          color: $greenMain;
+          border-bottom: 1px solid $greenMain;
+        }
+      }
+      img {
+        height: 24px;
+      }
+      .cart-icon{
         position: relative;
-        span {
+        &::after{
+          content: '3';
           position: absolute;
-          right: -7px;
-          top: -7px;
-          background-color: $orangeMain;
           color: $whiteColor;
-          padding: 0 4px;
+          background-color: $orangeMain;
+          font-size: 1.2rem;
+          line-height: 1.4rem;
           border-radius: 50%;
+          padding: 1px 4px;
+          top: -7px;
+          right: -7px;
         }
       }
-      .menu-toggle {
-        display: none;
-      }
-    }
-    .row [class^="col-"] {
-      margin: 0;
-    }
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .header {
-    .container {
-      max-width: 720px;
-      position: relative;
-      .header-menu {
-        display: none;
-      }
-      .search-tablet{
-        display: flex;
-      }
-      .header-icon {
-        column-gap: 20px;
-        .search-icon{
-          display: none;
-        }
-        .menu-toggle {
-          display: block;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 720px){
-  .header{
-    .container{
-      .header-icon{
-        .cart-icon{
-          display: none;
-        }
+      .active{
+        color: $greenMain;
+        border-bottom: 1px solid $greenMain;
       }
     }
   }

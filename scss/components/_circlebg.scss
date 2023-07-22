@@ -1,0 +1,14 @@
+.circle-green {
+  width: 282px;
+  height: 282px;
+  flex-shrink: 0;
+  border-radius: 282px;
+  background: var(--green-200, #dcffca);
+}
+.circle-orange {
+  width: 282px;
+  height: 282px;
+  flex-shrink: 0;
+  border-radius: 282px;
+  background: var(--orange-200, #ffd5bd);
+}

@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Green Chop</title>
-    <link rel="icon" sizes="32x32" href="./img/logo/Logo Greenchop_White 1.svg" />
+    <link
+      rel="icon"
+      sizes="32x32"
+      href="./img/logo/Logo Greenchop_White 1.svg"
+    />
 
     <!-- css -->
     <link rel="stylesheet" href="./css/grid.css" />
@@ -22,70 +26,156 @@
   <body>
     <!-- Begin: Header -->
     <header class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-2">
-                    <!-- Begin: Header Logo -->
-                    <div class="header-logo">
-                        <a href="#">
-                            <img src="./img/logo/Logo Greenchop_White 1.svg" alt="logo green chop">
-                        </a>
-                    </div>
-                    <!-- End: Header Logo -->
-                </div>
-                <!-- End Col -->
-    
-                <div class="col-8">
-                    <!-- Begin: Header Menu -->
-                    <nav class="header-menu">
-                        <ul>
-                            <li><a href="#!" class="active">Trang chủ</a></li>
-                            <li><a href="#!">Về Greenchop</a></li>
-                            <li><a href="#!">Sản phẩm</a></li>
-                            <li><a href="#!">Tin tức</a></li>
-                            <li><a href="#!">Liên hệ</a></li>
-                        </ul>
-                    </nav>
-                    <!-- End: Header Menu -->
-                </div>
-                <!-- End Col -->
-    
-                <div class="col-2">
-                    <!-- Begin: Header Icon -->
-                    <div class="header-icon">
-                        <div class="cart-icon">
-                            <a href="#">
-                                <img src="./icons/icon-cart.svg" alt="icon cart">
-                                <span>3</span>
-                            </a>
-                        </div>
-                        <div class="search-icon">
-                            <a href="#">
-                                <img src="./icons/icon-search.svg" alt="icon search">
-                            </a>
-                        </div>
-                        <div class="menu-toggle">
-                            <label for="menu-toggle">
-                                <img src="./icons/icon-menu.svg" alt="Menu Icon">
-                            </label>
-                        </div>
-                    </div>
-                    <!-- End: Header Icon -->
-                </div>
-                <!-- End Col -->
-            </div>
+      <div class="header-inner">
+        <div class="header-logo">
+          <img src="./img/logo/Logo Greenchop_White 1.svg" alt="" />
         </div>
+        <div class="header-nav">
+          <a href="#!" class="active">Trang chủ</a>
+          <a href="#!">Về Greenchop</a>
+          <a href="#!">Sản phẩm</a>
+          <a href="#!">Tin tức</a>
+          <a href="#!">Liên hệ</a>
+          <a href="#!" class="cart-icon"
+            ><img src="./icons/icon-cart.svg" alt=""
+          /></a>
+          <a href="#!"><img src="./icons/icon-search.svg" alt="" /></a>
+        </div>
+      </div>
     </header>
     <!-- End: Header -->
 
     <!-- Begin: Main -->
     <main>
-        <section class="home">
-            <div class="col-6">
+      <section class="hero">
+        <div class="hero-inner">
+          <div class="hero-content">
+            <h1>
+              GreenChop: Tiện gấp dễ gắp<br />
+              <span
+                >AN TOÀN HƠN<br />
+                GIỮA MÙA COVID</span
+              >
+            </h1>
+            <p>
+              GreenChop là sản phẩm đũa thay đầu duy nhất trên thị trường hiện
+              tại. Sản phẩm cho phép người dùng tháo lắp và thay mới đầu đũa
+              100% trong mỗi bữa ăn. Nhờ đó, GreenChop giúp ngăn ngừa khả năng
+              lây lan dịch bệnh và đảm bảo an toàn cho người dùng.
+            </p>
+          </div>
+          <div class="hero-img">
+            <img src="./img/hero/img chop.png" alt="" />
+            <p>GREEN<br />CHOP</p>
+          </div>
+        </div>
+      </section>
 
+      <section class="quality">
+        <div class="quality-inner">
+            <h2>
+              GreenChop: Giữ an toàn trong từng <br />
+              bữa ăn của người Việt
+            </h2>
+            <p>
+              Với sự tinh tế trong việc thấu hiểu hành vi của khách hàng cùng ý
+              tưởng đột phá, GreenChop đã trở thành sản phẩm không thể thiếu trong
+              mọi bữa ăn mùa dịch tại các nhà hàng, khách sạn, quán ăn...
+            </p>
+            <div class="quantity-list row-3">
+                <div class="quantity-item">
+                    <div class="quantity-item_img">
+                        <img src="./img/quality 1.svg" alt="icon quality">
+                    </div>
+                    <h1>1000+</h1>
+                    <p>Hộ gia đình tin dùng GreenChop </p>
+                </div>
+
+                <div class="quantity-item">
+                    <div class="quantity-item_img">
+                        <img src="./img/quality 1.svg" alt="icon quality">
+                    </div>
+                    <h1>600+</h1>
+                    <p>Nhà hàng đã phục vụ GreenChop cho thực khách </p>
+                </div>
+
+                <div class="quantity-item">
+                    <div class="quantity-item_img">
+                        <img src="./img/quality 1.svg" alt="icon quality">
+                    </div>
+                    <h1>20+ </h1>
+                    <p>Tỉnh thành được GreenChop phủ sóng </p>
+                </div>
             </div>
-        </section>
-    </main>
+        </div>
+      </section>
 
+      <section class="product">
+        <div class="product-inner">
+            <h2>Sản phẩm</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <div class="circle-orange"></div>
+                    <img src="./img/products/item-01.svg" alt="item 1" class="img1">
+                    <h3>Combo<br> Quán ăn</h3>
+                    <img src="./img/products/Vector 2.png" alt="" class="img-border">
+                    <p>1 Thùng 1000 đôi</p>
+                    <p class="price">Giá: <span>600.000</span> vnd</p>
+                    <button class="btn-primary-default">Thêm vào giỏ hàng</button>
+                </div>
+
+                <div class="product-item">
+                    <div class="circle-orange"></div>
+                    <img src="./img/products/item-01.svg" alt="item 1" class="img1">
+                    <h3>Combo<br> Quán ăn</h3>
+                    <img src="./img/products/Vector 2.png" alt="" class="img-border">
+                    <p>1 Thùng 1000 đôi</p>
+                    <p class="price">Giá: <span>600.000</span> vnd</p>
+                    <button class="btn-primary-default">Thêm vào giỏ hàng</button>
+                </div>
+
+                <div class="product-item">
+                    <div class="circle-orange"></div>
+                    <img src="./img/products/item-01.svg" alt="item 1" class="img1">
+                    <h3>Combo<br> Quán ăn</h3>
+                    <img src="./img/products/Vector 2.png" alt="" class="img-border">
+                    <p>1 Thùng 1000 đôi</p>
+                    <p class="price">Giá: <span>600.000</span> vnd</p>
+                    <button class="btn-primary-default">Thêm vào giỏ hàng</button>
+                </div>
+
+                <div class="product-item">
+                    <div class="circle-orange"></div>
+                    <img src="./img/products/item-01.svg" alt="item 1" class="img1">
+                    <h3>Combo<br> Quán ăn</h3>
+                    <img src="./img/products/Vector 2.png" alt="" class="img-border">
+                    <p>1 Thùng 1000 đôi</p>
+                    <p class="price">Giá: <span>600.000</span> vnd</p>
+                    <button class="btn-primary-default">Thêm vào giỏ hàng</button>
+                </div>
+
+                <div class="product-item">
+                    <div class="circle-orange"></div>
+                    <img src="./img/products/item-01.svg" alt="item 1" class="img1">
+                    <h3>Combo<br> Quán ăn</h3>
+                    <img src="./img/products/Vector 2.png" alt="" class="img-border">
+                    <p>1 Thùng 1000 đôi</p>
+                    <p class="price">Giá: <span>600.000</span> vnd</p>
+                    <button class="btn-primary-default">Thêm vào giỏ hàng</button>
+                </div>
+
+                <div class="product-item">
+                    <div class="circle-orange"></div>
+                    <img src="./img/products/item-01.svg" alt="item 1" class="img1">
+                    <h3>Combo<br> Quán ăn</h3>
+                    <img src="./img/products/Vector 2.png" alt="" class="img-border">
+                    <p>1 Thùng 1000 đôi</p>
+                    <p class="price">Giá: <span>600.000</span> vnd</p>
+                    <button class="btn-primary-default">Thêm vào giỏ hàng</button>
+                </div>
+            </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
