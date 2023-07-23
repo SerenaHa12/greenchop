@@ -44,7 +44,7 @@
       height: 850px;
       position: absolute;
       top: 0;
-      right: -240px;
+      right: -224px;
       background-color: $green-200;
       border-radius: 20px 0 0 20px;
       z-index: 0;
@@ -75,7 +75,7 @@
           font-weight: 800;
           position: absolute;
           top: 196px;
-          right: -180px;
+          right: -80px;
           line-height: 12rem;
           opacity: 0.15000000596046448;
         }
@@ -274,3 +274,101 @@
     }
   }
 }
+
+@media screen and (max-width: 575px) {
+  .hero {
+    .hero-inner {
+      max-width: 430px;
+      margin: 0;
+      display: block;
+      .hero-content {
+        margin: 0 calc((100vw - 430px) / 2);
+        padding: 40px 0;
+        width: 100%;
+        h1 {
+          span {
+            margin-top: 27px;
+            font-size: 3rem;
+          }
+        }
+      }
+      .hero-img {
+        background-color: $green-200;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 140%;
+        img {
+          width: 40%;
+        }
+        p {
+          transform: rotate(90deg);
+          color: $green-1000;
+          font-size: 8rem;
+          font-weight: 800;
+          line-height: 6rem;
+          opacity: 0.15000000596046448;
+        }
+      }
+      &::after {
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        background-color: $green-200;
+        border-radius: 20px 0 0 20px;
+        z-index: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .hero {
+    .hero-inner {
+      max-width: 320px;
+      margin: 0;
+      display: block;
+      .hero-content {
+        margin: 0 calc((100vw - 320px) / 2);
+        padding: 40px 0;
+        width: 100%;
+        h1 {
+          span {
+            margin-top: 27px;
+            font-size: 3rem;
+          }
+        }
+      }
+      .hero-img {
+        background-color: $green-200;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 140%;
+        img {
+          width: 40%;
+        }
+        p {
+          transform: rotate(90deg);
+          color: $green-1000;
+          font-size: 8rem;
+          font-weight: 800;
+          line-height: 6rem;
+          opacity: 0.15000000596046448;
+        }
+      }
+      &::after {
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        background-color: $green-200;
+        border-radius: 20px 0 0 20px;
+        z-index: 0;
+      }
+    }
+  }
+}
+
+// continue
