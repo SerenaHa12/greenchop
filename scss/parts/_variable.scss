@@ -184,3 +184,59 @@ p {
     color: $textColor;
   }
 }
+@media screen and (max-width: 767px){
+  h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    line-height: 131.523%;
+    color: $textColor;
+  }
+  h2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 131.523%;
+    color: $textColor;
+  }
+  h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+    color: $textColor;
+  }
+  p {
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 153.125%;
+    color: $textColor;
+  }
+}
+@media screen and (max-width: 575px){
+  h1 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    line-height: 131.523%;
+    color: $textColor;
+  }
+  h2 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 131.523%;
+    color: $textColor;
+  }
+  h3 {
+    font-size: 2.0rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: $textColor;
+  }
+  p {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 153.125%;
+    color: $textColor;
+  }
+}

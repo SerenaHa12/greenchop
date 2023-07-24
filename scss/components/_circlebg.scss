@@ -13,3 +13,21 @@
   background: var(--orange-200, #ffd5bd);
 }
 
+@media screen and (max-width: 575px){
+  .circle-green {
+    width: 141px;
+    height: 141px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    border-radius: 141px;
+    background: var(--green-200, #dcffca);
+  }
+  .circle-orange {
+    width: 141px;
+    height: 141px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    border-radius: 141px;
+    background: var(--orange-200, #ffd5bd);
+  }
+}
