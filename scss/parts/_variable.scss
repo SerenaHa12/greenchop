@@ -72,7 +72,7 @@ p {
   color: $textColor;
 }
 
-@media screen and (max-width: 1499px){
+@media screen and (max-width: 1499.98px){
   h1 {
     font-size: 4rem;
     font-weight: 800;
@@ -100,7 +100,7 @@ p {
     color: $textColor;
   }
 }
-@media screen and (max-width: 1399px){
+@media screen and (max-width: 1399.98px){
   h1 {
     font-size: 3.5rem;
     font-weight: 800;
@@ -128,7 +128,7 @@ p {
     color: $textColor;
   }
 }
-@media screen and (max-width: 1199px){
+@media screen and (max-width: 1199.98px){
   h1 {
     font-size: 2.8rem;
     font-weight: 800;
@@ -156,7 +156,7 @@ p {
     color: $textColor;
   }
 }
-@media screen and (max-width: 991px){
+@media screen and (max-width: 991.98px){
   h1 {
     font-size: 2.4rem;
     font-weight: 800;
@@ -184,7 +184,7 @@ p {
     color: $textColor;
   }
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767.98px){
   h1 {
     font-size: 2.2rem;
     font-weight: 800;
@@ -199,9 +199,9 @@ p {
     color: $textColor;
   }
   h3 {
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     font-weight: 600;
-    line-height: 3.2rem;
+    line-height: 2.2rem;
     color: $textColor;
   }
   p {
@@ -212,7 +212,7 @@ p {
     color: $textColor;
   }
 }
-@media screen and (max-width: 575px){
+@media screen and (max-width: 575.98px){
   h1 {
     font-size: 2.4rem;
     font-weight: 800;
@@ -228,6 +228,34 @@ p {
   }
   h3 {
     font-size: 2.0rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: $textColor;
+  }
+  p {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 153.125%;
+    color: $textColor;
+  }
+}
+@media screen and (max-width: 460.98px){
+  h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    line-height: 131.523%;
+    color: $textColor;
+  }
+  h2 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 131.523%;
+    color: $textColor;
+  }
+  h3 {
+    font-size: 1.4rem;
     font-weight: 600;
     line-height: 2rem;
     color: $textColor;

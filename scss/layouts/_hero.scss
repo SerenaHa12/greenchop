@@ -212,7 +212,16 @@
       }
       .hero-img_tablet {
         margin: 0;
-        padding: 0;
+        padding: 0 calc((100vh - 720px) / 2);
+        p {
+          transform: rotate(0deg);
+          color: $green-1000;
+          font-size: 6rem;
+          font-weight: 800;
+          line-height: 6rem;
+          letter-spacing: 0.5rem;
+          opacity: 0.15000000596046448;
+        }
       }
     }
   }
@@ -269,7 +278,7 @@
   }
 }
 
-@media screen and (max-width: 430.98px) {
+@media screen and (max-width: 460.98px) {
   .hero {
     .hero-inner {
       padding-top: 60px;
@@ -280,11 +289,10 @@
         max-width: 320px;
         padding: 40px 0;
         width: 100%;
-        h1 {
-          span {
-            margin-top: 27px;
-            font-size: 3rem;
-          }
+
+        span {
+          margin-top: 27px;
+          font-size: 3rem;
         }
         p {
           width: 100%;
@@ -303,8 +311,7 @@
         z-index: 0;
       }
       .hero-img_tablet {
-        margin: 0;
-        padding: 0;
+        padding: 0 calc((100vw - 320px) / 2);
         background-color: $green-200;
         display: flex;
         flex-direction: row;
@@ -318,7 +325,7 @@
         p {
           transform: rotate(0deg);
           color: $green-1000;
-          font-size: 6rem;
+          font-size: 4rem;
           font-weight: 800;
           line-height: 6rem;
           letter-spacing: 0.5rem;

@@ -37,10 +37,14 @@
         font-style: normal;
         font-weight: 600;
         line-height: 26px;
+        
         &:hover {
           color: $greenMain;
           border-bottom: 1px solid $greenMain;
         }
+      }
+      .search{
+        display: none;
       }
       .search-icon{
         &:hover{
@@ -221,7 +225,7 @@
         // display: flex;
         flex-direction: column;
         position: fixed;
-        top: 30px;
+        top: 28px;
         left: 0;
         bottom: 0;
         min-width: 250px;
@@ -271,7 +275,7 @@
   }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 575.98px) {
   .header {
     .header-inner {
       display: flex;
@@ -289,11 +293,11 @@
         // display: flex;
         flex-direction: column;
         position: fixed;
-        top: 30px;
+        top: 4px;
         left: 0;
         bottom: 0;
         min-width: 200px;
-        background-color: $orangeMain;
+        background-color: $green-100;
         padding: 20px 0;
         transition: transform 0.7s ease-in-out;
         .cart-icon {
@@ -307,9 +311,12 @@
         }
         a {
           display: block;
-          color: $whiteColor;
+          color: $textColor;
           padding: 10px 20px;
           font-size: 1.4rem;
+        }
+        .active{
+          border-bottom: 1px solid $green-100;
         }
       }
       .header-nav.active {
@@ -340,7 +347,6 @@
   .header {
     .header-inner {
       display: flex;
-      max-width: 320px;
       margin: 0 calc((100vw - 320px) / 2);
       align-items: center;
       .header-logo {
@@ -354,11 +360,11 @@
         // display: flex;
         flex-direction: column;
         position: fixed;
-        top: 6px;
+        top: 14px;
         left: 0;
         bottom: 0;
         min-width: 200px;
-        background-color: $orangeMain;
+        background-color: $green-100;
         transition: transform 0.7s ease-in-out;
         .cart-icon {
           display: none;
@@ -371,9 +377,12 @@
         }
         a {
           display: block;
-          color: $whiteColor;
+          color: $textColor;
           padding: 10px 20px;
           font-size: 1.4rem;
+        }
+        .search{
+          display: block;
         }
       }
       .header-nav.active {
@@ -381,11 +390,13 @@
         transform: translateY(0);
       }
       form {
-        display: flex;
+        display: none;
         column-gap: 18px;
         font-weight: 700;
         align-items: center;
         input[type="search"] {
+          display: none;
+          width: 100px;
           &::placeholder {
             font-size: 1.6rem;
             color: $textColor;
