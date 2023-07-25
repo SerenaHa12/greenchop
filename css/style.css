@@ -1897,7 +1897,7 @@ ul li {
   bottom: -120px;
   left: 0;
   width: 100%;
-  height: 50%;
+  height: 70%;
   background: #fff0e7;
 }
 .protect .protect-inner {
@@ -2476,9 +2476,12 @@ ul li {
   }
 }
 .cta .cta-inner {
-  margin: 0 calc((100vw - 1440px) / 2);
+  margin: 120px calc((100vw - 1440px) / 2);
   display: flex;
   justify-content: space-between;
+}
+.cta .cta-inner form {
+  width: 40%;
 }
 .cta .cta-inner form .input-name {
   width: 100%;
@@ -2489,9 +2492,193 @@ ul li {
   row-gap: 20px;
 }
 .cta .cta-inner form .input-row input {
-  flex-basis: 40%;
+  flex-basis: 48%;
+}
+.cta .cta-inner form .form-textaria {
+  position: relative;
+}
+.cta .cta-inner form .form-textaria label {
+  color: #a3a3a3;
+  position: absolute;
+  top: 48px;
+  left: 16px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cta .cta-inner form button {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-top: 32px;
+  padding: 16px 60px;
 }
 
+@media screen and (max-width: 1499.98px) {
+  .cta .cta-inner {
+    margin: 120px calc((100vw - 1320px) / 2);
+    display: flex;
+    justify-content: space-between;
+  }
+  .cta .cta-inner form {
+    width: 40%;
+  }
+  .cta .cta-inner form .input-name {
+    width: 100%;
+  }
+  .cta .cta-inner form .input-row {
+    display: flex;
+    justify-content: space-between;
+    row-gap: 20px;
+  }
+  .cta .cta-inner form .input-row input {
+    flex-basis: 48%;
+  }
+  .cta .cta-inner form .form-textaria {
+    position: relative;
+  }
+  .cta .cta-inner form .form-textaria label {
+    color: #a3a3a3;
+    position: absolute;
+    top: 48px;
+    left: 16px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .cta .cta-inner form button {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-top: 32px;
+    padding: 16px 60px;
+  }
+}
+@media screen and (max-width: 1399.98px) {
+  .cta .cta-inner {
+    margin: 120px calc((100vw - 1140px) / 2);
+    display: flex;
+    justify-content: space-between;
+  }
+  .cta .cta-inner form {
+    width: 40%;
+  }
+  .cta .cta-inner form .input-name {
+    width: 100%;
+  }
+  .cta .cta-inner form .input-row {
+    display: block;
+  }
+  .cta .cta-inner form .input-row input {
+    width: 100%;
+  }
+  .cta .cta-inner form .form-textaria {
+    position: relative;
+  }
+  .cta .cta-inner form .form-textaria label {
+    color: #a3a3a3;
+    position: absolute;
+    top: 48px;
+    left: 16px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .cta .cta-inner form button {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-top: 32px;
+    padding: 16px 60px;
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  .cta .cta-inner {
+    margin: 120px calc((100vw - 960px) / 2);
+    display: flex;
+    justify-content: space-between;
+  }
+  .cta .cta-inner .cta-img img {
+    width: 80%;
+  }
+  .cta .cta-inner form {
+    width: 40%;
+  }
+  .cta .cta-inner form .input-name {
+    width: 100%;
+  }
+  .cta .cta-inner form .input-row {
+    display: block;
+  }
+  .cta .cta-inner form .input-row input {
+    width: 100%;
+  }
+  .cta .cta-inner form .form-textaria {
+    position: relative;
+  }
+  .cta .cta-inner form .form-textaria label {
+    color: #a3a3a3;
+    position: absolute;
+    top: 48px;
+    left: 16px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .cta .cta-inner form button {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-top: 32px;
+    padding: 16px 60px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .cta .cta-inner {
+    margin: 120px calc((100vw - 720px) / 2);
+    display: flex;
+    justify-content: space-between;
+  }
+  .cta .cta-inner .cta-img img {
+    width: 60%;
+  }
+  .cta .cta-inner form {
+    width: 70%;
+  }
+  .cta .cta-inner form .input-name {
+    width: 100%;
+  }
+  .cta .cta-inner form .input-row {
+    display: block;
+  }
+  .cta .cta-inner form .input-row input {
+    width: 100%;
+  }
+  .cta .cta-inner form .form-textaria {
+    position: relative;
+  }
+  .cta .cta-inner form .form-textaria label {
+    color: #a3a3a3;
+    position: absolute;
+    top: 48px;
+    left: 16px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .cta .cta-inner form button {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-top: 32px;
+    padding: 16px 60px;
+  }
+}
 .btn-primary-default {
   color: #fff;
   text-align: center;

@@ -1,20 +1,221 @@
-.cta{
-    .cta-inner{
-        margin: 0 calc((100vw - 1440px)/2);
+.cta {
+  .cta-inner {
+    margin: 120px calc((100vw - 1440px) / 2);
+    display: flex;
+    justify-content: space-between;
+    form {
+      width: 40%;
+      .input-name {
+        width: 100%;
+      }
+      .input-row {
         display: flex;
         justify-content: space-between;
-        form{
-            .input-name{
-                width: 100%;
-            }
-            .input-row{
-                display: flex;
-                justify-content: space-between;
-                row-gap: 20px;
-                input{
-                    flex-basis: 40%;
-                }
-            }
+        row-gap: 20px;
+        input {
+          flex-basis: 48%;
         }
+      }
+      .form-textaria {
+        position: relative;
+        label {
+          color: $grey-500;
+          position: absolute;
+          top: 48px;
+          left: 16px;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+      button {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: auto;
+        margin-top: 32px;
+        padding: 16px 60px;
+      }
     }
+  }
+}
+
+@media screen and (max-width: 1499.98px) {
+  .cta {
+    .cta-inner {
+      margin: 120px calc((100vw - 1320px) / 2);
+      display: flex;
+      justify-content: space-between;
+      form {
+        width: 40%;
+        .input-name {
+          width: 100%;
+        }
+        .input-row {
+          display: flex;
+          justify-content: space-between;
+          row-gap: 20px;
+          input {
+            flex-basis: 48%;
+          }
+        }
+        .form-textaria {
+          position: relative;
+          label {
+            color: $grey-500;
+            position: absolute;
+            top: 48px;
+            left: 16px;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+        button {
+          display: flex;
+          justify-content: flex-end;
+          margin-left: auto;
+          margin-top: 32px;
+          padding: 16px 60px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1399.98px) {
+  .cta {
+    .cta-inner {
+      margin: 120px calc((100vw - 1140px) / 2);
+      display: flex;
+      justify-content: space-between;
+      form {
+        width: 40%;
+        .input-name {
+          width: 100%;
+        }
+        .input-row {
+          display: block;
+          input {
+            width: 100%;
+          }
+        }
+        .form-textaria {
+          position: relative;
+          label {
+            color: $grey-500;
+            position: absolute;
+            top: 48px;
+            left: 16px;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+        button {
+          display: flex;
+          justify-content: flex-end;
+          margin-left: auto;
+          margin-top: 32px;
+          padding: 16px 60px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1199.98px) {
+  .cta {
+    .cta-inner {
+      margin: 120px calc((100vw - 960px) / 2);
+      display: flex;
+      justify-content: space-between;
+      .cta-img {
+        img {
+          width: 80%;
+        }
+      }
+      form {
+        width: 40%;
+        .input-name {
+          width: 100%;
+        }
+        .input-row {
+          display: block;
+          input {
+            width: 100%;
+          }
+        }
+        .form-textaria {
+          position: relative;
+          label {
+            color: $grey-500;
+            position: absolute;
+            top: 48px;
+            left: 16px;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+        button {
+          display: flex;
+          justify-content: flex-end;
+          margin-left: auto;
+          margin-top: 32px;
+          padding: 16px 60px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .cta {
+    .cta-inner {
+      margin: 120px calc((100vw - 720px) / 2);
+      display: flex;
+      justify-content: space-between;
+      .cta-img {
+        img {
+          width: 60%;
+        }
+      }
+      form {
+        width: 70%;
+        .input-name {
+          width: 100%;
+        }
+        .input-row {
+          display: block;
+          input {
+            width: 100%;
+          }
+        }
+        .form-textaria {
+          position: relative;
+          label {
+            color: $grey-500;
+            position: absolute;
+            top: 48px;
+            left: 16px;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+        button {
+          display: flex;
+          justify-content: flex-end;
+          margin-left: auto;
+          margin-top: 32px;
+          padding: 16px 60px;
+        }
+      }
+    }
+  }
 }
