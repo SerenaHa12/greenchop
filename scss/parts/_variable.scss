@@ -64,6 +64,11 @@ h3 {
   line-height: 3.2rem;
   color: $textColor;
 }
+h4 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 3.2rem;
+}
 p {
   font-size: 1.6rem;
   font-style: normal;
@@ -72,7 +77,32 @@ p {
   color: $textColor;
 }
 
-@media screen and (max-width: 1499.98px){
+input {
+  padding: 16px;
+  color: $grey-500;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 32px;
+  border-radius: 8px;
+  border: 1px solid $grey-500;
+}
+
+textarea {
+  border-radius: 8px;
+  border: 1px solid $grey-500;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: $grey-500;
+  height: 178px;
+  width: 100%;
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 1499.98px) {
   h1 {
     font-size: 4rem;
     font-weight: 800;
@@ -92,6 +122,11 @@ p {
     line-height: 3.2rem;
     color: $textColor;
   }
+  h4 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+  }
   p {
     font-size: 1.4rem;
     font-style: normal;
@@ -100,7 +135,7 @@ p {
     color: $textColor;
   }
 }
-@media screen and (max-width: 1399.98px){
+@media screen and (max-width: 1399.98px) {
   h1 {
     font-size: 3.5rem;
     font-weight: 800;
@@ -120,6 +155,11 @@ p {
     line-height: 3.2rem;
     color: $textColor;
   }
+  h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+  }
   p {
     font-size: 1.4rem;
     font-style: normal;
@@ -128,7 +168,7 @@ p {
     color: $textColor;
   }
 }
-@media screen and (max-width: 1199.98px){
+@media screen and (max-width: 1199.98px) {
   h1 {
     font-size: 2.8rem;
     font-weight: 800;
@@ -148,6 +188,11 @@ p {
     line-height: 3.2rem;
     color: $textColor;
   }
+  h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+  }
   p {
     font-size: 1.3rem;
     font-style: normal;
@@ -156,7 +201,7 @@ p {
     color: $textColor;
   }
 }
-@media screen and (max-width: 991.98px){
+@media screen and (max-width: 991.98px) {
   h1 {
     font-size: 2.4rem;
     font-weight: 800;
@@ -176,15 +221,24 @@ p {
     line-height: 3.2rem;
     color: $textColor;
   }
-  p {
+  h4 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+  }
+  p,
+  a {
     font-size: 1.3rem;
     font-style: normal;
     font-weight: 400;
     line-height: 153.125%;
     color: $textColor;
   }
+  a:hover {
+    color: $orangeMain;
+  }
 }
-@media screen and (max-width: 767.98px){
+@media screen and (max-width: 767.98px) {
   h1 {
     font-size: 2.2rem;
     font-weight: 800;
@@ -199,7 +253,7 @@ p {
     color: $textColor;
   }
   h3 {
-    font-size: 2.0rem;
+    font-size: 2rem;
     font-weight: 600;
     line-height: 2.2rem;
     color: $textColor;
@@ -212,7 +266,7 @@ p {
     color: $textColor;
   }
 }
-@media screen and (max-width: 575.98px){
+@media screen and (max-width: 575.98px) {
   h1 {
     font-size: 2.4rem;
     font-weight: 800;
@@ -227,7 +281,7 @@ p {
     color: $textColor;
   }
   h3 {
-    font-size: 2.0rem;
+    font-size: 2rem;
     font-weight: 600;
     line-height: 2rem;
     color: $textColor;
@@ -240,7 +294,7 @@ p {
     color: $textColor;
   }
 }
-@media screen and (max-width: 460.98px){
+@media screen and (max-width: 460.98px) {
   h1 {
     font-size: 2.2rem;
     font-weight: 800;

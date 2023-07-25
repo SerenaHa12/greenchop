@@ -1,0 +1,12 @@
+.footer{
+    .footer-inner{
+        display: block;
+        .footer-content{
+            display: flex;
+            justify-content: space-between;
+        }
+        .footer-link{
+            display: flex;
+        }
+    }
+}

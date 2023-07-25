@@ -1,0 +1,20 @@
+.cta{
+    .cta-inner{
+        margin: 0 calc((100vw - 1440px)/2);
+        display: flex;
+        justify-content: space-between;
+        form{
+            .input-name{
+                width: 100%;
+            }
+            .input-row{
+                display: flex;
+                justify-content: space-between;
+                row-gap: 20px;
+                input{
+                    flex-basis: 40%;
+                }
+            }
+        }
+    }
+}
