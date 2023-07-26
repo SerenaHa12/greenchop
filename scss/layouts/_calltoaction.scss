@@ -153,9 +153,9 @@
           label {
             color: $grey-500;
             position: absolute;
-            top: 48px;
-            left: 16px;
-            font-size: 18px;
+            top: 32px;
+            left: 12px;
+            font-size: 14px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -165,7 +165,7 @@
           display: flex;
           justify-content: flex-end;
           margin-left: auto;
-          margin-top: 32px;
+          margin-top: 20px;
           padding: 16px 60px;
         }
       }
@@ -181,11 +181,11 @@
       justify-content: space-between;
       .cta-img {
         img {
-          width: 60%;
+          width: 90%;
         }
       }
       form {
-        width: 70%;
+        width: 100%;
         .input-name {
           width: 100%;
         }
@@ -200,9 +200,9 @@
           label {
             color: $grey-500;
             position: absolute;
-            top: 48px;
-            left: 16px;
-            font-size: 18px;
+            top: 32px;
+            left: 12px;
+            font-size: 14px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -212,7 +212,151 @@
           display: flex;
           justify-content: flex-end;
           margin-left: auto;
-          margin-top: 32px;
+          margin-top: 20px;
+          padding: 16px 60px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .cta {
+    .cta-inner {
+      margin: 120px calc((100vw - 540px) / 2);
+      display: flex;
+      justify-content: space-between;
+      .cta-img {
+        display: none;
+        img {
+          width: 90%;
+        }
+      }
+      form {
+        width: 100%;
+        .input-name {
+          width: 100%;
+        }
+        .input-row {
+          display: block;
+          input {
+            width: 100%;
+          }
+        }
+        .form-textaria {
+          position: relative;
+          label {
+            color: $grey-500;
+            position: absolute;
+            top: 32px;
+            left: 12px;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+        button {
+          display: flex;
+          justify-content: flex-end;
+          margin-left: auto;
+          margin-top: 20px;
+          padding: 16px 60px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .cta {
+    .cta-inner {
+      margin: 120px calc((100vw - 430px) / 2);
+      display: flex;
+      justify-content: space-between;
+      .cta-img {
+        display: none;
+        img {
+          width: 90%;
+        }
+      }
+      form {
+        width: 100%;
+        .input-name {
+          width: 100%;
+        }
+        .input-row {
+          display: block;
+          input {
+            width: 100%;
+          }
+        }
+        .form-textaria {
+          position: relative;
+          label {
+            color: $grey-500;
+            position: absolute;
+            top: 32px;
+            left: 12px;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+        button {
+          display: flex;
+          justify-content: flex-end;
+          margin-left: auto;
+          margin-top: 20px;
+          padding: 16px 60px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 460.98px) {
+  .cta {
+    .cta-inner {
+      margin: 120px calc((100vw - 320px) / 2);
+      display: flex;
+      justify-content: space-between;
+      .cta-img {
+        display: none;
+        img {
+          width: 90%;
+        }
+      }
+      form {
+        width: 100%;
+        .input-name {
+          width: 100%;
+        }
+        .input-row {
+          display: block;
+          input {
+            width: 100%;
+          }
+        }
+        .form-textaria {
+          position: relative;
+          label {
+            color: $grey-500;
+            position: absolute;
+            top: 32px;
+            left: 12px;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+        button {
+          display: flex;
+          justify-content: flex-end;
+          margin-left: auto;
+          margin-top: 20px;
           padding: 16px 60px;
         }
       }

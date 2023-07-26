@@ -200,6 +200,31 @@ textarea {
     line-height: 153.125%;
     color: $textColor;
   }
+  input {
+    padding: 12px;
+    color: $grey-500;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid $grey-500;
+  }
+  
+  textarea {
+    border-radius: 8px;
+    border: 1px solid $grey-500;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: $grey-500;
+    height: 178px;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+  }
 }
 @media screen and (max-width: 991.98px) {
   h1 {
